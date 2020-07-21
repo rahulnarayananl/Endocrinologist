@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Endocrinologist</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/site/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="static/site/css/animate.css">
+    
+    <link rel="stylesheet" href="static/site/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/site/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="static/site/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="static/site/css/aos.css">
+
+    <link rel="stylesheet" href="static/site/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="static/site/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="static/site/css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="static/site/css/flaticon.css">
+    <link rel="stylesheet" href="static/site/css/icomoon.css">
+    <link rel="stylesheet" href="static/site/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="static/util.css">
+	<link rel="stylesheet" type="text/css" href="static/main.css">
+	<link rel="stylesheet" type="text/css" href="static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="static/css/main.css">	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+    <script src="https//ajax.googleapis.com/ajax/libs/angularjs/1.6.0./angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular-resource.min.js"></script>
+    <script src="static/angular.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
+</head>
+<body>
+	<div class="py-md-5 py-5 border-bottom">
+    	<div class="container">
+    		<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
+    			<div class="col-md-4 order-md-2 mb-2 mb-md-0 align-items-center text-center">
+		    		<a class="navbar-brand" href="index.html"> Endocrinologist<span>Online Diabetes Predictor</span></a>
+	    		</div>
+	    		<div class="col-md-4 order-md-1 d-flex topper mb-md-0 mb-2 align-items-center text-md-right">
+	    			<div class="icon d-flex justify-content-center align-items-center order-md-last">
+	    				<span class="icon-map"></span>
+	    			</div>
+	    			<div class="pr-md-4 pl-md-0 pl-3 text">
+					    <p class="con"><span>Free Call</span> <span> +91 988 466 8182</span></p>
+					    <p class="con"> 24/7 Free Check up  </p>
+				    </div>
+			    </div>
+			    <div class="col-md-4 order-md-3 d-flex topper mb-md-0 align-items-center">
+			    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+			    	<div class="text pl-3 pl-md-3">
+					    <p class="hr"><span>Tested With Our Best Machine learning algorithms</span></p>
+					    <p class="time"><span>Better accuracy</span> <span> : </span>Cost Free</p>
+				    </div>
+			    </div>
+		    </div>
+		  </div>
+    </div>
+
+    <section style="background-color:whitesmoke;" >
+    	<div class="container">
+    		<div class="row">
+          <div class="col-md-8">
+          	<span class="subheading"></span>
+            <h2 class="mb-4">Experience AI In Real Time</h2>
+            <p>We Give you results directly from our power AI systems</p>
+          </div>
+        </div>
+	 <!-- <div ng-app="DiabetesUser" ng-controller="DiabetesController">
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-33">
+						Patient Details
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate = "Enter valid value">
+                        <bold><font color="black">Patient's Name</font></bold>								
+                        <input class="input100" type ="textfield" id="name" placeholder="Name"/>
+                        <span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+
+					<div class="wrap-input100 rs1 validate-input" data-validate="Enter valid value">
+                        <bold><font color="black">Plasma Glucose Concentration</font></bold>
+                        <input class="input100" type ="number" id="plasma" placeholder="(70-180 mg/dl)"/>
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+                    
+                     <div class="wrap-input100 rs1 validate-input" data-validate="Enter valid value">
+                         <bold> <font color="black">Diastolic Blood Pressure</font></bold>
+                         <input class="input100" type="number" id="bp" placeholder="(80-140 mm Hg)">
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+                    <div class="wrap-input100 rs1 validate-input" data-validate="Enter valid value">
+                        <bold><font color="black">Triceps SkinFold Thickness</font></bold>
+                        <input class="input100" type="number" id="triceps" placeholder="(10-50 mm)">
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+                    <div class="wrap-input100 rs1 validate-input" data-validate="Enter valid value">
+                        <bold><font color="black">Serum Insulin</font></bold>
+                        <input class="input100" type="number" id="insulin" placeholder="(15-276mu U/ml)">
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+                    <div class="wrap-input100 rs1 validate-input" data-validate="Enter valid value">
+                        <bold> <font color="black">Body Mass Index</font></bold>
+                        <input class="input100" type="number" id="bmi" placeholder="(10-50)">
+						<span class="focus-input100-1"></span>
+						<span class="focus-input100-2"></span>
+					</div>
+					<div class="container-login100-form-btn m-t-20">						
+						<button class="login100-form-btn"  id="Get_result"  onclick="getDetails()">
+							Get Results...
+						</button>
+					</div>
+                    					
+				</form>
+			</div>
+		</div>
+	</div>
+	</div> -->
+    <div align ="center">
+      <div>
+                <center>
+        <h1 align ="center"><bold></bold></h1>
+        <h2 align="justify"></h2>
+        <p><font size=5 color="white"></font> </p>               </center>
+                
+      </div>
+    
+	</div>
+    </section>
+    <section >
+      <div class="container">
+        <div class="row  justify-content-center">
+          <div class="col-md-6">
+            <h1 class="mb-4" align="center"><strong>Report <br><p> </p></strong></h1>
+            <p align="right"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="ftco-section intro" style="background-image: url(static/site/images/blue.jpg);" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            
+            <h2 class="mb-4" align="center"><font color="white"><bold><strong>Congrats! Your are Healthy And Free from Diabetes.</strong></bold></font></h2>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="ftco-section intro">
+      <div class="container">
+        <div class="row justify-content-center ">
+          <div class="col-md-6">
+            <span class="subheading"><font size=5 color="black"></font></span>
+            <h3 align="center">Our machine learning algorithm predicts that you do not have risk of being prone to Diabetes disease</h3>
+            <p>Fly out with True Colors.With No worries.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<section class="ftco-section intro" style="background-image: url(static/site/images/yy.jpg);" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="mb-4">We care about our customers</h3>
+            <p>AI for life.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="ftco-section bg-dark" style="background-color:whitesmoke;" >
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2><font color="white">Not Sure About the Results</font></h2>
+            <p class="mb-4"><font color="white">Feel free, check again</font></p>
+            <p></p>
+          </div>
+          <div class="col-md-3 d-flex align-items-center">
+            <button class="btn btn-secondary px-4 py-3 mt-3" onclick="openForm()">Check Again</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    
+    
+
+
+
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-5">
+              <h2 class="ftco-heading-2 logo">Endocrinologist</h2>
+              <p>The best predictor you can get.</p>
+            </div>
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Chennai</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text"> +91 988 466 8182</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">rahulatoff@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+
+	            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-5 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
+                <!-- <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li> -->
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+              </ul>
+            </div>
+            <!-- <div class="ftco-footer-widget mb-5 ml-md-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Neurolgy</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Dentist</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Ophthalmology</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Cardiology</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Surgery</a></li>
+              </ul>
+            </div> -->
+          </div>
+          <!-- <div class="col-md">
+            <div class="ftco-footer-widget mb-5">
+              <h2 class="ftco-heading-2">Recent Blog</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Sept. 20, 2019</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-5 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Sept. 20, 2019</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="col-md">
+          	<div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2">Feel free to give us suggestions</h2>
+            	<h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>We are online 24/7</h3>
+            </div>
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2">Subscribe Us!</h2>
+              <form action="#" class="subscribe-form">
+                <div class="form-group">
+                  <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
+                  <input type="submit" value="Subscribe" class="form-control submit px-3">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+	<script src="static/vendor/select2/select2.min.js"></script>
+	<script src="static/js/main.js"></script>
+	<script src="static/js/app.js"></script>
+    
+    </div>
+
+</body>
+</html>
+
+<script>
+	var DiabetesUser=angular.module("DiabetesUser",[]);
+	DiabetesUser.controller("DiabetesController",function ($scope, $window, $http)
+{	
+	$scope.getDetails=function getDetails(){
+	var plasma=document.getElementById("plasma").value;
+	var bmi=document.getElementById("bmi").value;
+	var bp=document.getElementById("bp").value;
+	var insulin=document.getElementById("insulin").value;
+	var triceps=document.getElementById("triceps").value;
+
+	$http({
+           url: '/login',
+            method: "POST",
+            headers: { 'Content-Type': 'application/json' },
+		data:{"plasma":plasma,"bmi":bmi,"bp":bp,"insulin":insulin,"triceps":triceps}
+        }).then(function (data) {
+            var pass_result = data.data.result;
+            var status = data.data.result.status;
+            var error = data.data.result.error;
+
+		console.log("status: ",status);  
+		console.log("error: ",error);                        
+
+        }); 
+    }
+});
+function openForm(){
+	window.location.href='openForm'
+}
+</script>
+</script>
