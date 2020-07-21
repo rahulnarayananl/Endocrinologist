@@ -1,6 +1,6 @@
 # Endocrinologist
  
- A machine learning model which predicts whether or not the user will have diabetes melitus.
+ A machine learning model which predicts whether or not the user will have diabetes melitus with flask.
  -----------------------------
  >1. SVM has been used for model.
  >2. To make user friendly, stripped off a GUI and built a website which has form to accept input from user.
